@@ -1,0 +1,55 @@
+.top-wrapper { /* Top container */
+    background-color: #A459D1;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+.middle-wrapper, .right-wrapper { /* make the left and right containers inside top container equal columns with text on left and image on right */
+    width: 50%;
+}
+
+.middle-wrapper {
+    padding: 80px 100px 20px 180px; 
+}
+
+.middle-wrapper-header { /* css for h1 in left container */
+    font-size: 80px;
+    color: #FFB84C;
+    margin-bottom: 3rem;
+    font-weight: bolder;
+}
+
+.middle-wrapper-par { /* css for pragraph left container */
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 3rem;
+}
+
+.join-us { /* css for open a Finzo account */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-decoration: none;
+    transition: color 0.3s;
+    width: 50%;
+    font-size: 25px;
+    margin: 10px 0 20px 0;
+    font-weight: 500;
+    letter-spacing: -.03em;
+}
+
+.join-us:hover { /* button text changes color when hovering */
+    color: #FFB84C;
+}
+
+.right-wrapper img { /* css for image in container on the right */
+    margin-top: 80px;
+    padding: 80px 100px 20px 180px; 
+    height: 50%;
+    object-fit: contain;
+}

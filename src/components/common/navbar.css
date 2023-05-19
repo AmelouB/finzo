@@ -1,0 +1,49 @@
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 200px;
+  }
+
+.navbar-logo { /* Navbar logo on the left */
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo a { /* Color and size of Navbar logo*/
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.navbar-tabs { /* Navbar tabs on the right */
+    display: flex;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.navbar-tabs li a:hover {
+    color: #FFB84C; /* Tabs become orange when hovering over */
+}
+
+.navbar-tabs li {
+    margin-right: 90px; /* Increased spacing between tabs */
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -.02em;
+}
+
+.navbar-tabs li:last-child {
+    margin-right: 0; 
+}
+
+.navbar-tabs li a {
+    color: white;
+    text-decoration: none;
+}

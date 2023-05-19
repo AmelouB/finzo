@@ -1,0 +1,41 @@
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+  
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+  
+.container-footer ul {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+}
+  
+.container-footer ul li {
+    margin-bottom: 10px;
+    text-align:left; 
+}
+  
+.copyright {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.newsletter button {
+    cursor: pointer; /* Changes the cursor when hovering over the button */
+}
+
+.newsltter input {
+    flex-grow: 1;
+}
+
+
