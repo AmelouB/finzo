@@ -7,7 +7,7 @@ const Navbar=()=>{
     return (
         <div class="navbar"> 
             <div class="navbar-logo">
-            <li><a href="./Accounts.js">Accounts</a></li>
+            <a href="homepage.html">finzo</a>
             </div>
             
             <ul class="navbar-tabs">
