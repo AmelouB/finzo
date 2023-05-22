@@ -9,6 +9,7 @@ function MiddleWrapper() {
           <h3 className="column-header">Personalise your card</h3>
           <p className="column-par">Nobody wants a boring card. Personalise your card 
             by chosing your logo and your color to make it truly yours.</p>
+            <button className="customise">Customise</button>
         </div>
         
         <div className="grid-item">
@@ -17,6 +18,7 @@ function MiddleWrapper() {
           <p className="column-par">Because we know there is bound to be some problems, our teams
             remain available to contact around the clock.
           </p>
+          <button className="customise">Contact us</button>
         </div>
         
         <div className="grid-item">
@@ -24,6 +26,7 @@ function MiddleWrapper() {
           <h3 className="column-header">See your money grow</h3>
           <p className="column-par">Understand where your money goes, where it is being sent 
             and hopefully see it grow or be prepared to lose it all.</p>
+            <button className="customise">Send funds</button>
         </div>
       </div>
     );
