@@ -11,7 +11,7 @@ const BankCardForm = () => {
   return (
     <div style={{ display: 'flex', justifyContent: 'space-between' }}>
       <div style={{ width: '50%' }}>
-        <form>
+        <form className="form">
           <label>
             Nickname:
             <input type="text" value={nickname} onChange={e => setNickname(e.target.value)} />
@@ -30,7 +30,7 @@ const BankCardForm = () => {
               <option value="cat">Cat</option>
             </select>
           </label>
-        </form>
+          </form>
       </div>
       <div style={{ width: '50%', backgroundColor: color }}>
         <h2>{nickname}</h2>
