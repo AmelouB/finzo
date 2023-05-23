@@ -1,7 +1,7 @@
 import React from 'react';
-import './Accounts.css';
+import '../pages/Accounts.css';
 import Navbar from '../components/common/navbar';
-import Footer from '../components/common/footer';
+import Footer from '../components/common/navbar';
 
 function App() {
   return (
@@ -13,5 +13,3 @@ function App() {
 }
 
 export default App;
-
-
