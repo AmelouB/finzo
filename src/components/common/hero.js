@@ -5,9 +5,9 @@ import './hero.css';
 const Hero=()=>{
     return (
         <div class="top-wrapper">
-            <div class="middle-wrapper">
-                <h1 class="middle-wrapper-header">Get your money high</h1>
-                <p class="middle-wrapper-par">Spend, borrow and save your money in one place. 
+            <div className="middle-wrapper">
+                <h1 className="middle-wrapper-header">Get your money high</h1>
+                <p className="middle-wrapper-par">Spend, borrow and save your money in one place. 
                     Multiply your money or risk it all. The power of the finance 
                     gods are in your hands.</p>
                     <button class="join-us">Open a Finzo account</button>
