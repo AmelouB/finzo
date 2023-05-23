@@ -1,5 +1,6 @@
 import React from "react";
 import "../common/middlewrapper.css";
+import { Link } from "react-router-dom";
 
 function MiddleWrapper() {
   return (
@@ -14,7 +15,9 @@ function MiddleWrapper() {
           Nobody wants a boring card. Personalise your card by chosing your logo
           and your color to make it truly yours.
         </p>
-        <button className="customise">Customise</button>
+        <Link to="/customisecard">
+          <button className="customise">Customise</button>
+        </Link>
       </div>
 
       <div className="grid-item">
