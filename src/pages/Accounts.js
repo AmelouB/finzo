@@ -1,7 +1,7 @@
 import React from 'react';
-import '../pages/Accounts.css';
+import './Accounts.css';
 import Navbar from '../components/common/navbar';
-import Footer from '../components/common/navbar';
+import Footer from '../components/common/footer';
 
 function App() {
   return (
