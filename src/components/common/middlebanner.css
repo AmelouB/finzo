@@ -1,0 +1,58 @@
+.middle-container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.grid-item {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px; 
+  }
+
+.column-header {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.column-par {
+  font-size: 20px;
+}
+
+.column-cost{
+    font-size: 25px;
+    font-weight: bold;
+    color: #A459D1;
+}
+
+.customise {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-size: 20px;
+  margin: 10px 0 20px 0;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+}
+
+.customise:hover {
+  color: #ffb84c;
+}
+
+

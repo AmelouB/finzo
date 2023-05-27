@@ -1,6 +1,106 @@
-.form {
-    background-color: #A459D1;
-    color: white;
-    font-size: 30px;
+.top-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 100px 200px;
+  background-color: white;
+
 }
 
+.form-container {
+  width: 40%;
+  background-color: white;
+  padding: 50px;
+  border-radius: 40px;
+  background-color: #A459D1;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  padding: 0 40px 70px 40px;
+  color: white;
+}
+
+.form-header {
+  padding-left: 40px;
+}
+
+.par-form {
+  font-size: 22px;
+  padding: 20px 40px 0 40px;
+}
+
+.label {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.form input {
+  height: 40px;
+  width: 80%;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.form select {
+  height: 40px;
+  width: 80%;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+.submit-form {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-decoration: none;
+  transition: color 0.3s;
+  width: 50%;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.card-container {
+  width: 35%;
+  border-radius: 30px;
+  height: 400px;
+  margin-top: 150px;
+  border-style: solid;
+}
+
+.card {
+    padding: 60px;
+    width: 100%;
+    height: 100%;
+  }
+
+.icon {
+  width: 120px;
+  height: auto;
+}
+
+.card-header {
+  text-align: right;
+  font-size: 50px;
+  padding-top: 50px;
+  padding-right: 100px;
+  font-weight: bold;
+}
+
+.thankyou-form {
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}

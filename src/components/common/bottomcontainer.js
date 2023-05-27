@@ -1,12 +1,16 @@
-import React from "react";
+import React from 'react';
 import '../common/bottomcontainer.css';
 
-const BottomContainer=()=>{
-    return (
-        <div className="content-container">
-            <h2>Join and become our first customer to open a Finzo bank account</h2>
-        </div>
-        
-    )}
+function BottomContainer(props) {
+  const {paragraphText} = props;
 
-export default BottomContainer
+  return (
+    <div className='bottom-container'>
+      <div className='grid-item'>
+        <p className='bottom-par'>{paragraphText}</p>
+      </div>
+    </div>
+  );
+}
+
+export default BottomContainer;

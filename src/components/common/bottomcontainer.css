@@ -1,4 +1,4 @@
-.content-container {/* css for orange container */
+.bottom-container {/* css for orange container */
     background-color: #FFB84C;
     position: relative;
     display:flex;
@@ -9,6 +9,11 @@
     width: 100%;
     font-size: 30px;
     color: white;
+}
+
+.bottom-par{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 

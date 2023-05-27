@@ -1,27 +1,31 @@
 import React from "react";
 import "../common/navbar.css";
+import {Link} from "react-router-dom";
+
+
 
 const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar-logo">
-        <a href="homepage.html">finzo</a>
+        <Link to="/">finzo</Link>
       </div>
 
       <ul class="navbar-tabs">
         <li>
-          <a href="./Accounts.js">Accounts</a>
+          <Link to="../Accounts">Accounts</Link>
         </li>
         <li>
-          <a href="./Savings">Savings</a>
+          <Link to="../Savings">Savings</Link>
         </li>
         <li>
-          <a href="./Borrowing">Borrowing</a>
+          <Link to="../Borrowing">Borrowing</Link>
         </li>
         <li>
-          <a href="./Joinus">Join us</a>
+          <Link to="../Joinus">Join us</Link>
         </li>
       </ul>
+
     </div>
   );
 };

@@ -1,23 +1,22 @@
 import React from "react";
-import './hero.css';
+import "./hero.css";
+import { Link } from "react-router-dom";
 
+const Hero = ({ title, description, buttonText, buttonLink, imageUrl }) => {
+  return (
+    <div className="top-wrapper">
+      <div className="middle-wrapper">
+        <h1 className="middle-wrapper-header">{title}</h1>
+        <p className="middle-wrapper-par">{description}</p>
+        <Link to={buttonLink}>
+          <button className="join-us">{buttonText}</button>
+        </Link>
+      </div>
+      <div className="right-wrapper">
+        <img src={imageUrl} alt="bank" />
+      </div>
+    </div>
+  );
+};
 
-const Hero=()=>{
-    return (
-        <div class="top-wrapper">
-            <div className="middle-wrapper">
-                <h1 className="middle-wrapper-header">Get your money high</h1>
-                <p className="middle-wrapper-par">Spend, borrow and save your money in one place. 
-                    Multiply your money or risk it all. The power of the finance 
-                    gods are in your hands.</p>
-                    <button class="join-us">Open a Finzo account</button>
-            </div>
-            <div className="right-wrapper">
-                <img src="https://cdn1.iconfinder.com/data/icons/marketing-and-business-colored/64/marketing-business-icon-colored-1-02-512.png" alt="bank"></img>
-
-            </div>
-        </div>
-        )
-}
-
-export default Hero
+export default Hero;
